@@ -1,0 +1,5 @@
+Version: 5
+Template: Github
+Owner: tmux
+Project: tmux
+Dversion-Mangle: s/~rc/-rc/ ; s/-rc1$/-rc/
