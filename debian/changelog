@@ -1,6 +1,6 @@
-tmux (3.8~git20260722.d7c61cf-0+welland1) unstable; urgency=medium
+tmux (3.8~git20260720.5ed5e36-0+welland1) unstable; urgency=medium
 
-  * Snapshot build of upstream tmux at d7c61cf1efdbe2ea000424943a30a146aab09026
+  * Snapshot build of upstream tmux at 5ed5e3606e9ced9eec18849676e15bff2d6f5a2e
     (next-3.8; fixes the choose-tree blank-tree bug with grouped sessions).
 
- -- Tim 'mithro' Ansell <me@mith.ro>  Wed, 22 Jul 2026 11:10:01 +0930
+ -- Tim 'mithro' Ansell <me@mith.ro>  Mon, 20 Jul 2026 18:17:19 +0100
