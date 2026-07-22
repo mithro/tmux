@@ -1,7 +1,7 @@
 Source: tmux
 Section: admin
 Priority: optional
-Maintainer: Sebastien Delafond <seb@debian.org>
+Maintainer: Tim 'mithro' Ansell <me@mith.ro>
 Build-Depends: autoconf,
                automake,
                autotools-dev,
@@ -17,8 +17,8 @@ Build-Depends: autoconf,
 Standards-Version: 4.7.4
 Rules-Requires-Root: no
 Homepage: https://github.com/tmux/tmux/wiki
-Vcs-Browser: https://salsa.debian.org/debian/tmux
-Vcs-Git: https://salsa.debian.org/debian/tmux.git
+Vcs-Browser: https://github.com/mithro/tmux
+Vcs-Git: https://github.com/mithro/tmux.git -b mithro/welland
 
 Package: tmux
 Architecture: any
