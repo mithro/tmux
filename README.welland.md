@@ -1,6 +1,6 @@
 # tmux — welland next-3.8 apt package
 
-This branch (`mithro/welland`) packages a **pinned snapshot of upstream tmux
+This branch (`main`) packages a **pinned snapshot of upstream tmux
 `next-3.8`** (commit [`5ed5e36`](https://github.com/tmux/tmux/commit/5ed5e36)) as a
 GPG-signed Debian apt repository for arm64 and amd64.
 

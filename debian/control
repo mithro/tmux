@@ -18,7 +18,7 @@ Standards-Version: 4.7.4
 Rules-Requires-Root: no
 Homepage: https://github.com/tmux/tmux/wiki
 Vcs-Browser: https://github.com/mithro/tmux
-Vcs-Git: https://github.com/mithro/tmux.git -b mithro/welland
+Vcs-Git: https://github.com/mithro/tmux.git -b main
 
 Package: tmux
 Architecture: any

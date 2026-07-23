@@ -5,7 +5,7 @@ name: Build deb + publish apt repo
 
 on:
   push:
-    branches: [mithro/welland]
+    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -34,7 +34,7 @@ jobs:
 
       - uses: actions/checkout@v4
         with:
-          ref: mithro/welland
+          ref: main
           fetch-depth: 0
 
       - name: Trust repo directory
