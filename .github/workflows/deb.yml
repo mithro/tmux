@@ -30,7 +30,7 @@ jobs:
           apt-get install -y --no-install-recommends \
             build-essential ca-certificates git dpkg-dev debhelper \
             autoconf automake autotools-dev pkgconf bison \
-            libevent-dev libncurses-dev python3
+            libevent-dev libncurses-dev libjemalloc-dev libsystemd-dev python3
 
       - uses: actions/checkout@v4
         with:
