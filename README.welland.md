@@ -14,13 +14,16 @@ tmux **3.7b** (the current release, and the newest in Debian sid) has a
 ## Install
 
 ```sh
+sudo install -d -m0755 /etc/apt/keyrings
 curl -fsSL https://mithro.github.io/tmux/tmux.gpg \
   | sudo tee /etc/apt/keyrings/mithro-tmux.gpg > /dev/null
-echo "deb [signed-by=/etc/apt/keyrings/mithro-tmux.gpg] https://mithro.github.io/tmux/ ./" \
+echo "deb [signed-by=/etc/apt/keyrings/mithro-tmux.gpg] https://mithro.github.io/tmux/trixie/ ./" \
   | sudo tee /etc/apt/sources.list.d/mithro-tmux.list
 sudo apt update
 sudo apt install tmux
 ```
+
+On sid, use `https://mithro.github.io/tmux/sid/` instead.
 
 The package version is `3.8~git<commit-date>.<sha>-0+welland1`, which upgrades
 over Debian's `3.7b-1` and is cleanly superseded by an official `3.8-1` when it
