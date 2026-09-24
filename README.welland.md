@@ -16,9 +16,9 @@ tmux **3.7b** (the current release, and the newest in Debian sid) has a
 ```sh
 sudo install -d -m0755 /etc/apt/keyrings
 curl -fsSL https://mithro.github.io/tmux/tmux.gpg \
-  | sudo tee /etc/apt/keyrings/mithro-tmux.gpg > /dev/null
-echo "deb [signed-by=/etc/apt/keyrings/mithro-tmux.gpg] https://mithro.github.io/tmux/trixie/ ./" \
-  | sudo tee /etc/apt/sources.list.d/mithro-tmux.list
+  | sudo tee /etc/apt/keyrings/tmux.gpg > /dev/null
+echo "deb [signed-by=/etc/apt/keyrings/tmux.gpg] https://mithro.github.io/tmux/trixie/ ./" \
+  | sudo tee /etc/apt/sources.list.d/tmux.list
 sudo apt update
 sudo apt install tmux
 ```
